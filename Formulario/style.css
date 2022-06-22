@@ -1,0 +1,29 @@
+input, label{
+    display: block;
+    width: 100%;
+}
+
+input:focus,label:focus{
+    outline: none;
+}
+
+
+
+main{
+    width: 500px;
+    margin-top: 5px;
+}
+
+.texto{
+    text-align: center;
+    
+}
+
+.formulario{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+

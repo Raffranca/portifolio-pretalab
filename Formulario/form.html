@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../image/protest.png" type="image/x-icon">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../image/protest.png" alt="img" width="5%">
+        <nav class="menu">
+            <ul>
+                <li><a href="/index.html"> Home</a></li>
+                <li><a href="/Formulario/form.html"> Cadastro </a></li>
+                <li><a href="/Formulario/form.html"> Link </a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="texto">
+            <h1>Cadastro</h1>
+            <p>Para receber Newsletter e deixar sua opnião, preencha o cadastro</p>
+            <br>
+        </div>
+
+        <form class="formulario" action="">
+            <div>
+                <label for="Nome">Nome:
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                </label>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            </div>
+
+            <div>
+                <label for="Telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+            </div>
+
+            <div>
+                <label for="opniao">Deixe sua sugestão</label>
+                <textarea name="opniao" id="opniao" cols="40" rows="6" placeholder="Tem algum elogio ou sugestão, então conta aqui para gente"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li><i class="fas fa-envelope-square estilo-icon"></i>email@email.com</li>
+                <li><i class="fab fa-linkedin estilo-icon"></i>Rafaela frança</li>
+                <li><i class="fab fa-github-square estilo-icon"></i>Raffranca</li>
+            </ul>
+        </div>
+    </footer>
+    <p class="erro"></p>
+</body>
+
+</html>
